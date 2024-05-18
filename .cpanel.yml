@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kjdte/repositories/seo-project
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R css/ $DEPLOYPATH
+    - /bin/cp -R html/ $DEPLOYPATH
+    - /bin/cp -R img/ $DEPLOYPATH
